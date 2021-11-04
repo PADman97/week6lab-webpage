@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="js-index.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+	
+		var height; //declare vars
+		var wealth;
+		
+		//taking in and parsing numbers, doing the calculations
+		height = parseInt(prompt("Enter your height in cm"));
+		wealth = parseInt(prompt("Enter you net worth in gold shekkels"));
+		
+		if((height < 180) || (wealth < 10000)){
+			//if either side evaluates to true, you will be banished from the kingdom
+			document.write("<br /><h1>You have been banished from the kingdom</h1>");
+		}
+		
+		document.write("<br />outside the IF statement");
+	</script>
+  </head>
+  <body>
+	<p>This has to be the coolect paragraph I have ever read</p>
+	<a href="page2.html">Page 2</a>
+	
+	
+  </body>
+</html>
